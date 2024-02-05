@@ -1,0 +1,73 @@
+*{
+    font-family: 'Jost', sans-serif;
+}
+
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title{
+    margin-left: 1vw;
+}
+
+.title > h1{
+    color: red;
+    font-size: 3vw;
+}
+
+.food{
+    position: absolute;
+    left: 11%;
+    top: 7%;
+    color: green;
+    font-size: 1.8vw;
+}
+
+.burger{
+    margin-right: 1vw;
+}
+
+.Search_bar{
+    margin-top: 6vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Search_bar > input{
+    width: 60vw;
+    height: 10vh;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: black;
+    text-align: baseline;
+    font-size: 2vw;
+}
+
+
+
+.fa-magnifying-glass{
+    font-size: 3vw;
+    position: relative;
+    translate: -4vw;
+}
+
+.food_item{
+   display: flex; 
+}
+
+
+
+.background-image{
+    min-height: 10em;
+    max-height: 30vh;
+    min-width: 10em;
+    max-width: 30vh;
+    background-size: cover;
+    border-width: 2px;
+    border-style: solid;
+}
