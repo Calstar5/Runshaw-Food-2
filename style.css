@@ -64,7 +64,7 @@
 
 
 .background-image{
-    height: 10em;
+    /* Use media query so desktop is 10em and mobile is width 50% ?*/
     width: 10em;
     background-size: cover;
     border-width: 2px;
@@ -72,7 +72,6 @@
 }
 
 .description{
-    height: 10em;
     width: 70vw;
     border-width: 2px;
     border-left: 0px;
